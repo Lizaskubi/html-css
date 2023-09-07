@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover{
+            color: chocolate;
+        }
+
+        div > a{
+            display: none
+        }
+        div:hover > a{
+            display: block;
+            color: rgb(0, 0, 0);
+            background-color: rgba(197, 28, 28, 0);
+            width: 180px;
+            text-decoration: none;
+        }
+        #linkv{
+            color: blueviolet;
+            text-decoration: underline;
+            width: 110px;
+        }
+        #unico{
+            text-decoration: none;
+            color: black;
+        }
+        #unico:visited{
+            color: red;
+        }
+        #unico::before{
+            content: "By lizas ";
+        }
+    </style>
+</head>
+<body>
+        <h1>Exemplo de hover</h1>
+        <p>Passe o mouse no texto abaixo</p>
+        <div>Passe o mouse aqui
+            <a href="pseudoclasse.html" id="linkv" >Clique aqui</a>
+        </div>
+        <a href="pseudoclasse.html" id="unico" >Clique aqui</a>
+        <p>Fim do exemplo</p>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formando Grouping Tags</title>
+
+    <style>
+        body{
+            background-color: #556573;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            text-align: center;
+        }
+        header>h1{
+            color:#fafafa ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            
+            
+        }
+        header>nav{
+            text-align: left;  
+            background: #BFAC95;
+            margin-bottom: 12px;
+            box-shadow: 1px 1px 10px #00000087
+        }
+        header>nav>a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        header>nav>a:hover{
+            text-decoration: underline;
+
+        }
+        .paragrafos{
+            text-align: justify;
+        }
+        article{
+            padding: 2px;
+            outline: 5px solid steelblue;
+            background-color: #BFAC95;
+            margin: 11px;
+            
+            
+        }
+
+        footer{
+            background-color: white;
+            text-align: center;
+            font-weight: bold;
+            padding: 1px;
+        }
+        footer> p{
+            margin: 0px;
+        }
+
+        section{
+            border: 5px solid steelblue;
+            border-radius: 15px;
+        }
+
+        aside{
+            margin-left: 15px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>Mundo das Notícias</h1>
+            <nav> 
+                <a href="#" id="unico">Futebol</a>
+                <a href="#">Política</a>
+                <a href="#">Beleza</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h2>Nova Tecnologia de Lizas...empolga</h2>
+                    <p class="paragrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorum commodi assumenda, quae voluptate iure magnam expedita voluptatum est. Quisquam quia sequi facere beatae praesentium explicabo ea error nemo pariatur?</p>
+                </article>   
+                <article>
+                    <h2>Ronaldo bisa e dá título a Al-nassr</h2>
+                    <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde magni numquam laudantium sequi hic adipisci id voluptate dolorem illum vitae nobis, sit minus error cupiditate harum earum nam eos perferendis?</p>
+                    <aside id="fora">
+                        Periferia do artigo
+                    </aside>
+                </article>
+            <aside>
+                <p>Escrito por António José</p>
+            </aside>             
+            </section>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Lizas</p>
+        </footer>
+        <div id="bola">
+            
+        </div>
+    
+</body>
+</html>

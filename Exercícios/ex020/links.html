@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover{
+            color: chocolate;
+            text-decoration: underline;
+        }
+        a:visited{
+            color: rgb(28, 161, 57);
+            text-decoration: t;
+        }
+        a:active{
+            color: crimson;
+        }
+        .especial::before{
+            content: '^ ';
+        }
+        .especial::after{
+            content: ' ^';
+        }
+        .especial{
+            color: darkred;
+        }
+
+
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Links Personalizados</h1>
+    <ul>
+        <li><a href="hover.html" target="_blank">Hover</a></li>
+        <li><a href="pseudoclasse.html" target="_blank">pseudoclasse</a></li>
+        <li><a href="www.abola.pt/" class="especial" target="_blank" >abola</a></li>
+    </ul>
+    
+</body>
+</html>

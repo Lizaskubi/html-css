@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+img{
+    align-items: center;
+}
+td{
+    align-self: center;
+}
+a{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

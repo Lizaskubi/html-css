@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixas</title>
+    
+   
+     
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,500;10..48,600;10..48,700;10..48,800&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,500;10..48,600;10..48,700;10..48,800&family=Montserrat:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+    
+        #h1{
+            height: 150px;
+            width: 300px;
+
+            background-color: #6CC5C6;
+
+            border:5px solid aquamarine;
+
+            padding: 10px;
+
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-weight: bold;
+
+            margin: 51px  10px 60px 20px;
+            
+            outline: 30px dashed #a5180e;
+
+        }
+    
+        a{
+            
+            border: 5px solid rgb(25, 168, 89) ;
+
+            text-decoration: none;
+
+            color: rgb(8, 102, 209);
+            
+            padding: 10px;
+            
+        }
+        #unico{
+            border-style: double;
+            border-bottom: 10px;
+
+            height: 30px;
+            width: 300px;
+
+            margin-bottom: 21px;
+
+            border: double;
+            border-color:#D1645D #025959 #D1645D #025959 ;
+
+            font-family: 'Itim', cursive;
+            text-align: center;
+
+            background-color: #9ED6D7;
+
+            margin: auto;
+           
+        }
+        #para{
+            height: 30px;
+            border-width: 0px;
+
+        }
+        body{
+            background-color: #DEF0EE;
+        }
+        p{
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+        }
+        a{
+            border-width: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="unico">Box-Level</h1>
+    <h1 id="h1">Exemplo de caixa box-level</h1>
+    
+    <p id="para">Parágrafos também são exemplos de box-level, mas os<a href="#">links são exemplos de caixas inline-level.</a>Vamos ver como tudo isso funciona</p>
+    
+</body>
+</html>
